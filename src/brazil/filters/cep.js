@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('brazil.filters').filter('brazil_zipcode', function() {
+angular.module('brazil.filters').filter('cep', function() {
   return function(input) {
   	var str = input+ '';
         str = str.replace(/\D/g,'');
